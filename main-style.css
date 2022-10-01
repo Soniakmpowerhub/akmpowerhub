@@ -1348,6 +1348,7 @@ h1.split-title {
 .about-item h3 {
 	font-size: 22px;
 	font-size: 1.3em;
+	text-transform: uppercase;
 }
 .about-item h5 a:hover {
 	color: #FF9900;
