@@ -767,3 +767,15 @@ p {
 	}
 }
 
+@media only screen and (max-width:767px) {
+	.services-widget li {
+		padding: 0;
+	}
+	.services-widget li, .sidebar-widget.contact-widget li {
+		border-bottom: transparent;
+	}
+	.services-widget .nav-tabs {
+		padding-bottom: 0;
+	}
+}
+

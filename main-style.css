@@ -2109,7 +2109,7 @@ h1.split-title {
 	left: 0px;
 	top: 0px;
 	font-size: 16px;
-	color: #ff214f;
+	color: #e67e22;
 	font-family: 'FontAwesome';
 }
 
@@ -2477,6 +2477,55 @@ hr {
     border-bottom: 1px solid #ddd; 
     transition: all 0.3s ease-in-out 0s;
 }
+.services-widget li {
+	width: 100%;
+	padding: 5px 0;
+}
+
+.services-widget li a {
+	padding-left: 0;
+}
+
+.services-widget .nav-tabs {
+	border-bottom: transparent;
+}
+
+@media screen and (max-width:767px) {
+	.services-widget .nav-tabs {
+		height: 180px;
+		overflow-y: auto;
+	}
+
+	.sidebar-widget.contact-widget {
+		display: none;
+	}
+	.widget .container {
+		padding-top: 0;
+	}
+	.sidebar .sidebar-widget {
+		padding: 15px;
+	}
+}
+
+.services-widget .nav-tabs>li.active>a,
+.services-widget .nav-tabs>li.active>a:focus,
+.services-widget .nav-tabs>li.active>a:hover {
+	color: #FF9900;
+    cursor: default;
+    background-color: transparent;
+    border: transparent;
+    border-bottom-color: transparent;
+}
+
+.services-widget .nav > li > a:focus,
+.services-widget .nav > li > a:hover {
+background-color: transparent;
+}
+
+.services-widget .nav-tabs>li>a:hover {
+	background-color: transparent;
+	border-color: transparent;
+}
 .services-widget li a,.sidebar-widget.contact-widget li {
 	font-size: 15px;
 	color: #95979a;
@@ -2506,8 +2555,10 @@ hr {
 	-ms-transition: all 0.3s ease;
 	-o-transition: all 0.3s ease;
 	border-bottom: 1px dashed #ddd;
-
 }
+
+
+
 
 .choose-item {
     margin-bottom: 45px;
@@ -2898,6 +2949,12 @@ hr {
 	background: #F7F8F9;
 	margin-bottom: 40px;
 	border-radius: 5px;
+}
+
+@media screen and (max-width:767px) {
+	.sidebar .sidebar-widget {
+		padding: 15px;
+	}
 }
 
 
