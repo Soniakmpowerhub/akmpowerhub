@@ -4115,6 +4115,7 @@ blockquote.text-center p {
 	position: relative;
 	display: block;
 	overflow: hidden;
+	border: 1px solid #FF9900;
 }
 
 .default-gallery-item .image-box {
