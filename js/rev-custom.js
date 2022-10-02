@@ -58,6 +58,7 @@
           startWithSlide: 0,
           videoJsPath: "",
           fullScreenOffsetContainer: ".home-slider",
+          responsiveLevels:[1200,992,768,576],
         });
   }
   o(".main-slider").resizable({
