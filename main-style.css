@@ -239,8 +239,16 @@ big,
 	z-index: 999999;
 	background-color: #ffffff;
 	background-position: center center;
+	background-size: 200px;
 	background-repeat: no-repeat;
 	background-image: url(images/icons/preloader.gif);
+}
+
+@media screen and (max-width:767px) {
+	.preloader {
+		background-position: 140px 340px;
+		background-size: 100px;
+	}
 }
 
 
@@ -390,6 +398,12 @@ h1.error-font {
 	font-size: 150px;
 	color: #f5f5f5;
 	left: 0;
+}
+
+@media screen and (max-width:767px) {
+	.outer-big-title h1 {
+		font-size: 60px;
+	}
 }
 
 @-webkit-keyframes fadeInLeft {
@@ -2113,7 +2127,13 @@ h1.split-title {
 	position: absolute;
 	left: -10%;
 	top: 25%;
+}
 
+@media screen and (max-width:767px) {
+	.dot-banner {
+		width: 100%;
+		display: none;
+	}
 }
 
 .fact-section .title-inner .text {
@@ -3309,6 +3329,7 @@ hr {
 		right: 72px;
 		padding: 7px 20px 8px 17px;
 		display: block;
+		z-index: 100;
 	}
 }
 
