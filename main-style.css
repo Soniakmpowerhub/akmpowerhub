@@ -752,6 +752,11 @@ h1.split-title {
 	display: inline-block;
 }
 
+.color-black {
+	color: #95979a;
+	display: inline-block;
+}
+
 .home-section .home-content span {
 	color: #fff;
 }
