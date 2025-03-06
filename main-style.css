@@ -747,6 +747,11 @@ h1.split-title {
 	text-transform: uppercase;
 }
 
+.color-white {
+	color: #fff;
+	display: inline-block;
+}
+
 .home-section .home-content span {
 	color: #fff;
 }
